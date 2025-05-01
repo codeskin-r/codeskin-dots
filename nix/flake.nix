@@ -12,15 +12,22 @@
   let
     configuration = { pkgs, ... }: {
       imports = [
+        ./modules/spicetify.nix
         ./modules/homebrew.nix
         ./modules/macos-defaults.nix
       ];
 
+      # Definición de paquetes del sistema
       environment.systemPackages = with pkgs; [
-        vim fzf zoxide pixcat spotify spicetify-cli asciiquarium
+        vim fzf zoxide pixcat spicetify-cli
         tmux neovim bat lazygit obsidian ffmpeg
         nmap gobuster wfuzz nikto tcpdump whois
-        neofetch nodejs
+        neofetch nodejs asciiquarium fastfetch cava 
+        yt-dlp vlc-bin python3 go rustc cargo docker 
+        jq httpie nixpkgs-fmt htop lsof watch ncdu
+        wireguard-tools mas nix-index nix-search-cli
+
+
       ];
 
       nixpkgs = {

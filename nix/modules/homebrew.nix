@@ -11,6 +11,8 @@
       "visual-studio-code"
       "kitty"
       "flameshot"
+      "alacritty"
+      "kodi"
     ];
 
     onActivation = {
