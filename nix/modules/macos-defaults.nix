@@ -2,7 +2,7 @@
 
 {
   system.defaults = {
-    dock.autohide = true;
+    dock.autohide = false;
     finder = {
       AppleShowAllExtensions = true;
       FXPreferredViewStyle = "clmv";
@@ -24,6 +24,10 @@
       "/Applications/Alacritty.app/"
       "/Applications/Spotify.app/"
       "/Applications/Canva.app/"
+      "/Applications/Kodi.app/"
+      "/Applications/balenaEtcher.app/"
+      "/Applications/OpenMTP.app/"
+      "/System/Applications/App Store.app/"
     ];
   };
 }

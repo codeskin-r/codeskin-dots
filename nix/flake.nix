@@ -25,8 +25,8 @@
         neofetch nodejs asciiquarium fastfetch cava 
         yt-dlp vlc-bin python3 go rustc cargo docker 
         jq httpie nixpkgs-fmt htop lsof watch ncdu
-        wireguard-tools mas nix-index nix-search-cli
-
+        wireguard-tools mas nix-index nix-search-cli 
+        ffmpeg-full 
 
       ];
 
