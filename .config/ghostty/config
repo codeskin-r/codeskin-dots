@@ -3,31 +3,27 @@
 background-opacity = 0.75
 background-blur-radius = 80
 
-# Colores base: oscuro con contraste alto
-foreground = #00FF5F           
-background = #0a0f0d            
-selection-background = #003322  
-cursor-color = #00FF5F
-cursor-text = #0a0f0d
+palette = tokyonight_moon
+background = #1e2030
+foreground = #c8d3f5
+cursor-color = #c8d3f5
 
-# Paleta Hacker Style (verde, rojo alerta, azul frío, etc)
-palette = 0=#0a0f0d
-palette = 1=#FF5F5F
-palette = 2=#00FF5F
-palette = 3=#FFD700
-palette = 4=#5F87FF
-palette = 5=#AF5FFF
-palette = 6=#5FFFFF
-palette = 7=#CCCCCC
-
-palette = 8=#5F5F5F
-palette = 9=#FF5F87
-palette = 10=#5FFF87
-palette = 11=#FFFF87
-palette = 12=#5FAFFF
-palette = 13=#FF87FF
-palette = 14=#87FFFF
-palette = 15=#FFFFFF
+color0  = #1b1d2b
+color1  = #ff757f
+color2  = #c3e88d
+color3  = #ffc777
+color4  = #82aaff
+color5  = #c099ff
+color6  = #86e1fc
+color7  = #828bb8
+color8  = #444a73
+color9  = #ff757f
+color10 = #c3e88d
+color11 = #ffc777
+color12 = #82aaff
+color13 = #c099ff
+color14 = #86e1fc
+color15 = #c8d3f5
 
 # Fuente sobria hacker
 font-family = IosevkaTerm NF

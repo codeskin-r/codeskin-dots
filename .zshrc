@@ -159,3 +159,5 @@ export BAT_THEME="gruvbox-dark"
 # 🚀 (Opcional) Prompt alternativo con Starship
 # ─────────────────────────────────────────────────────────────
 # eval "$(starship init zsh)"
+
+export PATH=$PATH:/Users/codeskin/.spicetify
