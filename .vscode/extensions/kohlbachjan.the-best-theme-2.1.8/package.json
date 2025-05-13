@@ -1,0 +1,38 @@
+{
+	"name": "the-best-theme",
+	"displayName": "The Best Theme",
+	"description": "The one and only theme for VS Code",
+	"publisher": "kohlbachjan",
+	"repository": "https://github.com/jankohlbach/The-Best-Theme",
+	"version": "2.1.8",
+	"engines": {
+		"vscode": "^1.36.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dark theme",
+		"best theme",
+		"atom one"
+	],
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#383838",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "The Best Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/The-Best-Theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1746419516561,
+		"targetPlatform": "undefined",
+		"size": 307862
+	}
+}

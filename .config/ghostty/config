@@ -1,41 +1,43 @@
-# Hacker Ghostty Theme - Fluorescent Dark Matrix Edition ☠️
+# Ghostty Config personalizada - Estilo Tokyo Night Moon con blur esponjoso
 
+window-theme = system
 background-opacity = 0.75
-background-blur-radius = 80
+background-blur-radius = 40
+background = #1a1b26
+foreground = #c0caf5
+selection-background = #33467C
+selection-foreground = #c0caf5
+cursor-color = #7aa2f7
+cursor-text = #1a1b26
 
-palette = tokyonight_moon
-background = #1e2030
-foreground = #c8d3f5
-cursor-color = #c8d3f5
+# Paleta basada en Tokyo Night Moon
+palette = 0=#1a1b26
+palette = 1=#f7768e
+palette = 2=#9ece6a
+palette = 3=#e0af68
+palette = 4=#7aa2f7
+palette = 5=#bb9af7
+palette = 6=#7dcfff
+palette = 7=#a9b1d6
 
-color0  = #1b1d2b
-color1  = #ff757f
-color2  = #c3e88d
-color3  = #ffc777
-color4  = #82aaff
-color5  = #c099ff
-color6  = #86e1fc
-color7  = #828bb8
-color8  = #444a73
-color9  = #ff757f
-color10 = #c3e88d
-color11 = #ffc777
-color12 = #82aaff
-color13 = #c099ff
-color14 = #86e1fc
-color15 = #c8d3f5
+palette = 8=#414868
+palette = 9=#f7768e
+palette = 10=#9ece6a
+palette = 11=#e0af68
+palette = 12=#7aa2f7
+palette = 13=#bb9af7
+palette = 14=#7dcfff
+palette = 15=#c0caf5
 
-# Fuente sobria hacker
 font-family = IosevkaTerm NF
-font-size = 20
-
-# Padding visual balance
+font-size = 18
 window-padding-color = extend
 window-step-resize = true
 window-padding-balance = true
 
-# Fix para teclas en Mac
+### Mac Alt Fix
 macos-option-as-alt = left
+
 keybind = alt+left=unbind
 keybind = alt+right=unbind
 
