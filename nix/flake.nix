@@ -21,7 +21,7 @@
         vim fzf zoxide pixcat tmux neovim bat lazygit
         nmap gobuster wfuzz nikto tcpdump whois
         neofetch asciiquarium virt-viewer 
-        yt-dlp vlc-bin python3 go rustc cargo docker
+        yt-dlp python3 go rustc cargo docker
         jq httpie nixpkgs-fmt htop lsof watch tree
         wireguard-tools mas nix-index nix-search-cli
         ffmpeg-full colima osu-lazer-bin docker-compose

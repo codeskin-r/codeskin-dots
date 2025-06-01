@@ -23,10 +23,14 @@
     # "eza"                     # Sustituto moderno de `ls`
      "gh"                      # GitHub CLI
      "pnpm"                    # Gestor de paquetes para Node.js
-     "openssl"                 # Librerías de criptografía
+     "openssl"                  # Librerías de criptografía
+     "broot"
+     "ncdu"
+     "pyenv"
     ];
 
     casks = [
+      "ghostty"
       "firefox"                 # Navegador web
       "iina"                    # Reproductor de video
       "the-unarchiver"          # Descompresor de archivos
@@ -34,7 +38,6 @@
       "flameshot"               # Capturas de pantalla
       "kodi"                    # Centro multimedia
       "qbittorrent"             # Cliente de torrent
-      "ghostty"                 # Terminal moderna
       "kitty"                   # Terminal avanzada
       "raycast"                 # Lanzador productivo
       "monitorcontrol"          # Control de brillo de pantallas externas
